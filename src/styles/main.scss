@@ -7,9 +7,23 @@
 @import "extends";
 @import "common";
 
+/* Шаблон */
+@import "./layout/header";
+@import "./layout/footer";
+
 /* Компоненты */
+@import "./components/logo";
+@import "./components/section-overline";
+@import "./components/contacts";
+
+@import "./components/note-card";
+@import "./components/feature-card";
+@import "./components/info-card";
+@import "./components/staff-card";
+@import "./components/review-card";
 
 /* Секции */
+
 /* Модальные окна */
 
 
