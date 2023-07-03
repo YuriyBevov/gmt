@@ -1,6 +1,7 @@
 .footer {
   padding: 55px 0 15px;
   background-color: var(--darkgray);
+  z-index: 11;
 
   &__section {
     padding: 25px 0;
@@ -12,7 +13,6 @@
 
     @include m-b-tablet-down {
       grid-template-columns: 1fr;
-      outline: 1px solid red;
       grid-gap: 20px;
     }
 
