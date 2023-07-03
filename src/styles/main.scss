@@ -16,14 +16,23 @@
 @import "./components/section-overline";
 @import "./components/contacts";
 
+@import "./components/notes-slider";
+
 @import "./components/note-card";
 @import "./components/feature-card";
-@import "./components/info-card";
+@import "./components/methodology-card";
 @import "./components/staff-card";
 @import "./components/review-card";
 
 /* Секции */
-
+@import "./views/intro";
+@import "./views/features";
+@import "./views/methodology";
+@import "./views/result";
+@import "./views/staff";
+@import "./views/about";
+@import "./views/consult";
+@import "./views/reviews";
 /* Модальные окна */
 
 
