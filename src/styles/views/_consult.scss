@@ -11,20 +11,11 @@
 
     &-num {
       position: relative;
-      display: block;
-      font-size: 64px;
-      line-height: 1;
-      font-weight: 700;
-      color: var(--white);
-      background-color: var(--white);
-      text-shadow: -1px -1px 0 var(--warning), 1px -1px 0 var(--warning), -1px 1px 0 var(--warning), 1px 1px 0 var(--warning);
+      @extend .outlined-text;
       padding-right: 20px;
       margin-right: 16px;
-      width: fit-content;
-      height: fit-content;
 
       @include m-b-tablet-down {
-        font-size: 40px;
         padding-right: 10px;
       }
 

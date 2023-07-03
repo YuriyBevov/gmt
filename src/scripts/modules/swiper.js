@@ -57,12 +57,12 @@ if(reviewsSlider) {
   new Swiper(reviewsSlider, {
     spaceBetween: 15,
     slidesPerView: 'auto',
-    /*autoplay: true,
+    autoplay: true,
     speed: 2500,
 
     autoplay: {
       delay: 2500,
-    },*/
+    },
 
     navigation: {
       nextEl: ".reviews-slider-button-next",

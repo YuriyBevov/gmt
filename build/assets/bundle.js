@@ -60,20 +60,19 @@ if (resultSlider) {
 var reviewsSlider = document.querySelector('.reviews-slider');
 
 if (reviewsSlider) {
-  new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](reviewsSlider, {
+  var _Swiper3;
+
+  new swiper__WEBPACK_IMPORTED_MODULE_0__["default"](reviewsSlider, (_Swiper3 = {
     spaceBetween: 15,
     slidesPerView: 'auto',
-
-    /*autoplay: true,
-    speed: 2500,
-     autoplay: {
-      delay: 2500,
-    },*/
-    navigation: {
-      nextEl: ".reviews-slider-button-next",
-      prevEl: ".reviews-slider-button-prev"
-    }
-  });
+    autoplay: true,
+    speed: 2500
+  }, _defineProperty(_Swiper3, "autoplay", {
+    delay: 2500
+  }), _defineProperty(_Swiper3, "navigation", {
+    nextEl: ".reviews-slider-button-next",
+    prevEl: ".reviews-slider-button-prev"
+  }), _Swiper3));
 }
 
 /***/ }),

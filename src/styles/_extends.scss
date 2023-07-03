@@ -18,6 +18,22 @@
 
 /*text*/
 
+.outlined-text {
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 700;
+  color: var(--white);
+  background-color: var(--white);
+  text-shadow: -1px -1px 0 var(--warning), 1px -1px 0 var(--warning), -1px 1px 0 var(--warning), 1px 1px 0 var(--warning);
+
+  width: fit-content;
+  height: fit-content;
+
+  @include m-b-tablet-down {
+    font-size: 40px;
+  }
+}
+
 .text-truncate {
   white-space: nowrap;
   overflow: hidden;
