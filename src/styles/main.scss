@@ -10,6 +10,7 @@
 @import "./layout/header";
 @import "./layout/footer";
 /* Компоненты */
+@import "./components/loader";
 @import "./components/logo";
 @import "./components/offer-form";
 @import "./components/section-overline";
@@ -33,7 +34,6 @@
 /* Модальные окна */
 @import "./modals/modal";
 @import "./modals/offer-modal";
-@import "./modals/error-modal";
-@import "./modals/success-modal";
+@import "./modals/state-modal";
 
 
