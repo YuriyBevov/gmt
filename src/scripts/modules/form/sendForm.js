@@ -3,11 +3,8 @@ import { gsap } from 'gsap';
 import { loader } from "../../utils/nodes";
 
 export function sendForm(form) {
-
   const successModal = document.getElementById('success-modal');
   const errorModal = document.getElementById('error-modal');
-  console.log(successModal, errorModal);
-
 
   function loaderFadeOut() {
     gsap.to(loader, {
@@ -24,12 +21,10 @@ export function sendForm(form) {
   }
 
   function error() {
-    setTimeout(() => {
-      loaderFadeOut();
-      new Modal(errorModal, {
-        preventBodyLock: true
-      }).show();
-    }, 3000);
+    loaderFadeOut();
+    new Modal(errorModal, {
+      preventBodyLock: true
+    }).show();
   }
 
   // handle the form submission event

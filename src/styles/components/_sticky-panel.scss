@@ -19,17 +19,19 @@
   button {
     @extend .btn-reset;
     @extend .flex-centered-content;
-    @extend .hover-opacity;
     font-weight: 700;
     text-transform: uppercase;
-    height: 40px;
+    min-height: 40px;
     color: var(--accent);
     border: 1px solid var(--accent);
     margin: auto 0;
+    line-height: 1;
 
     &:nth-child(2) {
       border-color: var(--white);
       color: var(--white);
     }
+
+    @extend .hover-opacity;
   }
 }

@@ -3,6 +3,10 @@
   background-color: var(--darkgray);
   z-index: 11;
 
+  .logo {
+    fill: var(--white);
+  }
+
   &__section {
     padding: 25px 0;
     border-bottom: 1px solid #919195;

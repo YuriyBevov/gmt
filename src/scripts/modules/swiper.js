@@ -31,12 +31,6 @@ if(resultSlider) {
   new Swiper(resultSlider, {
     spaceBetween: 20,
     slidesPerView: 1,
-    autoplay: true,
-    speed: 2500,
-
-    autoplay: {
-      delay: 2500,
-    },
 
     navigation: {
       nextEl: ".result-slider-button-next",
@@ -57,12 +51,6 @@ if(reviewsSlider) {
   new Swiper(reviewsSlider, {
     spaceBetween: 15,
     slidesPerView: 'auto',
-    autoplay: true,
-    speed: 2500,
-
-    autoplay: {
-      delay: 2500,
-    },
 
     navigation: {
       nextEl: ".reviews-slider-button-next",
